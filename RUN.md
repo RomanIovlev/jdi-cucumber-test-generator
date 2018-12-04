@@ -162,3 +162,7 @@ spring:
  2. Then select "jdi-cucumber-test-generator"->"lifecycle"->"install"
  3. Select "jdi-cucumber-test-generator"->"lifecycle"->"verify"
     - create new configuration and add in the command line `-DskipTests=false`
+    
+ # Admin
+ Run: "mvn spring-boot:run -f admin-client"
+ Access: http://localhost:8090/getUsers
